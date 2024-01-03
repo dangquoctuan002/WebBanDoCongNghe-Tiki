@@ -1,0 +1,9 @@
+Đặng Quốc Tuấn TT2D20 (=.=)
+
+url admin: admin/trangchu.php  (http://localhost/PHP2/WebBanDoCongNghe/admin/trangchu.php)
+tài khoản admin: admin, admin
+
+trang người dùng: index.php	(http://localhost/PHP2/WebBanDoCongNghe/index.php)
+tài khoản người dùng: Tuan2002, Tuan2002
+
+Nguyện vọng: Bài em còn rất nhiều lỗi mong cô dơ cao đánh khẽ ạk <3.
