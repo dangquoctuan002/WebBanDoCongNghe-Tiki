@@ -1,0 +1,91 @@
+main {
+    width: 90%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+
+.content .donhang {
+    width: 100%;
+    height: auto;
+    padding: 0 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+    border-bottom: 1px solid #b3b3b3;
+
+}
+
+.content .donhang .dh-name {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #d8d8d8;
+    padding: 0 20px;
+}
+
+.content .donhang .list-sanpham {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.content .list-sanpham .sanpham {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    /* background-color: #666; */
+    padding-top: 20px;
+}
+
+.content .list-sanpham div {
+    flex: 0 0 auto;
+
+}
+
+.content .list-sanpham .product-thumbnail {
+    flex: 1;
+}
+
+.content .list-sanpham .product-name {
+    flex: 3;
+}
+
+.content .list-sanpham .product-quantity {
+    flex: 1;
+
+}
+
+.content .list-sanpham .product-thumbnail img {
+    /* border: 1px dashed #4a9cf7; */
+}
+
+.content .list-sanpham .product-name {
+    width: 60%;
+    /* align-self: baseline; */
+}
+
+.content .list-sanpham .product-name a {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+
+.content .list-sanpham .product-name bdi {
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tongtien {
+    display: flex;
+    justify-content: end;
+}

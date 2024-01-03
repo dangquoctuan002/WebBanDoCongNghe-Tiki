@@ -1,0 +1,22 @@
+
+main {
+    height: auto;
+    margin-top: 10px;
+
+}
+
+main .content {
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+main img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 43%;
+}

@@ -1,0 +1,97 @@
+
+.container table{
+    height: 400px;
+    padding: 20px;
+    text-align: left;
+    border: 0;
+}
+table tr{
+    border-bottom: 1px solid #000;
+}
+.container th{
+    text-align: left;
+    
+}
+
+.container .phantrang{
+    width: 100%;
+    margin-top: 12.5px;
+    display: flex;
+    justify-content: right;
+    
+}
+
+.container .phantrang button{
+
+    padding: 5px;
+   
+}
+
+.container a{
+    color: #000;
+}
+
+.container .them{
+    margin-right: 80%;
+}
+
+
+.container table th:nth-child(1) {
+
+    text-align: center;
+    width: 3%;
+}
+
+.container table td:nth-child(1) {
+    width: 3%;
+    text-align: center;
+}
+
+.container table th:nth-child(2) {
+    width: 10%;
+    text-align: center;
+}
+
+.container table td:nth-child(2) {
+    width: 10%;
+    text-align: center;
+}
+
+.container table th:nth-child(3) {
+    width:10%;
+    text-align: center;
+}
+
+.container table td:nth-child(3) {
+    width:10%;
+    text-align: center;
+}
+
+.container table th:nth-child(4) {
+    width:12%;
+    text-align: center;
+}
+
+.container table td:nth-child(4) {
+    width:12%;
+    text-align: center;
+}
+
+.container table th:nth-child(5) {
+    width:50%;
+    text-align: center;
+}
+
+.container table td:nth-child(5) {
+    width:50%;
+    text-align: center;
+}
+.container table th:nth-child(6) {
+    width:10%;
+    text-align: center;
+}
+
+.container table td:nth-child(6) {
+    width:10%;
+    text-align: center;
+}

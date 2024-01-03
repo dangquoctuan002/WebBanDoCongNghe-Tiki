@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(../image/bann.jpg);
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+form{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #505050;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.form-user {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.form-user>* {
+    margin: 10px;
+}
+
+.form-user div {
+    flex: 1;
+}
+
+.form-user label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-user input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.form-user input[type="file"] {
+    height: 23px;
+}
+
+.form-user span {
+    color: red;
+    margin-left: 3px;
+    font-weight: 600;
+}
+
+
+
+
+
+.content{
+    position: relative;
+    top: 10%;
+}
+
+::selection {
+    background-color: gray;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 450px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, #424242, #212121);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+.title {
+    color: wheat;
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+label{
+    color: white;
+}
+.input {
+    margin: 0.5rem 0;
+    padding: 1rem 0.5rem;
+    width: 20rem;
+    background-color: inherit;
+    color: wheat;
+    border: none;
+    outline: none;
+}
+
+.username {
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+}
+.username:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.hovaten {
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+}
+.sodienthoai {
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+}
+.hovaten:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+}
+.sodienthoai:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+
+.password {
+    border-bottom: 1px solid wheat;
+    transition: all 400ms;
+}
+
+.password:hover {
+    background-color: #424242;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    height: 3rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.2rem;
+    transition: all 400ms;
+    box-shadow: 0 0 10px antiquewhite, 0 0 10px antiquewhite;
+}
+
+.btn:hover {
+    background-color: antiquewhite;
+    box-shadow: none;
+    cursor: pointer;
+    
+}
+.container a{
+    width: 100%;
+    /* text-decoration: none; */
+    color: WHITE;
+    /* text-align: right; */
+    /* display: flex; */
+    position: relative;
+    /* right: 0; */
+    left: 10px;
+    height: 20px;
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.quaylai{
+    width: 5rem;
+    height: 2rem;
+    margin-top: 14px;
+    background: none;
+    color: wheat;
+    position: relative;
+}
+

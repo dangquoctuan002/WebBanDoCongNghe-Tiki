@@ -1,0 +1,299 @@
+.container{
+    height: auto !important;
+}
+.container table {
+    height: 400px;
+    padding: 20px;
+    text-align: left;
+    border: 0;
+}
+
+
+.container th {
+    text-align: left;
+
+}
+
+.container .phantrang {
+    width: 100%;
+    /* margin-top: 12.5px; */
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: -20px;
+}
+.container .phantrang button {
+
+    padding: 5px;
+
+}
+.container a {
+    color: #000;
+}
+
+.container .them {
+    display: block;
+    width: 13em;
+    height: 33px;
+    position: relative;
+    top: 10px;
+    margin-right: 80%;
+    background-color: aqua;
+    z-index: 1000;
+}
+.container .them button{
+    width: 100%;
+    height: inherit;
+}
+.container table th:nth-child(1) {
+    width: 8%;
+    text-align: center;
+}
+
+.container table td:nth-child(1) {
+    width: 8%;
+    text-align: center;
+}
+
+.container table th:nth-child(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.container table td:nth-child(2) {
+    width: 20%;
+    text-align: center;
+}
+
+.container table th:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+.container table td:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+.container table th:nth-child(4) {
+    width: 12%;
+    text-align: center;
+}
+
+.container table td:nth-child(4) {
+    width: 12%;
+    text-align: center;
+}
+
+.container table th:nth-child(5) {
+    width: 15%;
+    text-align: center;
+}
+
+.container table td:nth-child(5) {
+    width: 15%;
+    text-align: center;
+}
+
+.container table th:nth-child(6) {
+    width: 15%;
+    text-align: center;
+}
+
+.container table td:nth-child(6) {
+    width: 15%;
+    text-align: center;
+}
+
+.container table th:nth-child(7) {
+    width: 15%;
+    text-align: center;
+}
+
+.container table td:nth-child(7) {
+    width: 10%;
+    text-align: center;
+}
+
+
+.container .form-insert-product {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #505050;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.container .form-insert-product .form-product {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 220px;
+    margin-top: 10px;
+}
+
+.container .form-insert-product .form-product>* {
+    margin: 10px;
+}
+
+.container .form-insert-product .form-product div {
+    flex: 1;
+}
+
+.container .form-insert-product .form-product label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container .form-insert-product .form-product input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.container .form-insert-product .form-product select {
+    width: 100%;
+    height: 30px;
+    color: rgb(133, 133, 133);
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.container .form-insert-product .form-product option {
+    color: #000;
+}
+
+.container .form-insert-product .form-product input[type="file"] {
+    height: 23px;
+}
+
+.container .form-insert-product .form-product span {
+    color: red;
+    margin-left: 3px;
+    font-weight: 600;
+}
+
+
+
+.container .form-insert-detail {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #505050;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+.container .form-insert-detail .thongsokithuat {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.container .form-insert-detail .thongsokithuat div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .form-insert-detail .thongsokithuat label {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.container .form-insert-detail .thongsokithuat input {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+
+.container .form-insert-detail .button {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    left: 40%;
+}
+
+.container .form-insert-detail .button,
+.button__icon,
+.button__text {
+    transition: all 0.3s;
+}
+
+.container .form-insert-detail .button .button__text {
+    transform: translateX(30px);
+    color: #fff;
+    font-weight: 600;
+}
+
+.container .form-insert-detail .button .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 39px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .form-insert-detail .button .svg {
+    width: 30px;
+    stroke: #ffffff;
+}
+
+.container .form-insert-detail .button:hover {
+    background: #888888;
+}
+
+.container .form-insert-detail .button:hover .button__text {
+    color: transparent;
+}
+
+.container .form-insert-detail .button:hover .button__icon {
+    width: 148px;
+    transform: translateX(0);
+}
+
+.container .form-insert-detail .button:active .button__icon {
+    background-color: #000000;
+}
+
+.container .form-insert-detail .button:active {
+    border: 1px solid #000000;
+}
+
+
+
+.container .insert-product-mota{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border-top: 2px solid #505050;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+
+

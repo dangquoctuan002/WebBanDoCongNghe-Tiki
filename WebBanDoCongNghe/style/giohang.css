@@ -1,0 +1,423 @@
+main {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* background-color: rgb(212, 212, 212); */
+}
+*{
+    box-sizing: border-box;
+}
+main .content {
+    width: 60%;
+    height: auto;
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+.content .header_ct {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.content .header_ct>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+.content .header_ct a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.content .giohang_ct {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.content .giohang_ct table {
+    width: 100%;
+    height: auto;
+}
+
+.content .giohang_ct table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    /* background-color: #666; */
+    border-bottom: 1px solid #b3b3b3;
+    padding-top: 20px;
+}
+
+.content .giohang_ct table td {
+    flex: 0 0 auto;
+   
+}
+.content .giohang_ct .product-thumbnail {
+    flex: 1;
+}
+
+.content .giohang_ct .product-name {
+    flex: 3;  
+}
+
+.content .giohang_ct .product-quantity {
+    flex: 1;
+
+}
+
+.content .giohang_ct table .product-thumbnail img{
+    /* border: 1px dashed #4a9cf7; */
+}
+
+.content .giohang_ct table .product-name {
+    width: 60%;
+    /* align-self: baseline; */
+}
+
+.content .giohang_ct table .product-name a {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+}
+
+.content .giohang_ct table .product-name bdi {
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.content .giohang_ct table .product_remove{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    top: -40px;
+    left: 120px;
+    cursor: pointer;
+}
+.content .giohang_ct table .product_remove input{
+width: 100%;
+height: 100%;
+box-sizing: border-box;
+margin: 0;
+border: none;
+cursor: pointer;
+}
+
+
+.content .giohang_ct table .product-quantity .quality-input {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.content .giohang_ct table .product-quantity input:focus-visible{
+    outline: none;
+}
+.content .giohang_ct table .product-quantity .quality-input input[type='button'] {
+    -webkit-appearance: button;
+    cursor: pointer;
+    background-color: transparent;
+    min-width: 38px;
+    width: auto;
+    transition: all 300ms ease;
+    border: 1px solid #dcdddf;
+    flex: 0 0 auto;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 3px;
+    color: #666;
+
+}
+
+.content .giohang_ct table .product-quantity .quality-input label {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+
+
+
+.content .giohang_ct table .quality-input input[type="number"] {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    background: transparent;
+    border: 1px solid #dcdddf;
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 26px;
+    text-align: center;
+    width: 62px;
+}
+
+.content .giohang_ct table .product-price{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.content .giohang_ct table .price_num{
+    background-color: #cacaca;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .giohang_ct .update-button{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2px;
+    /* background-color: #0043a3; */
+}
+
+.content .giohang_ct .update-button input[type='submit']{
+    width: 100px;
+    height: 25px;
+    border: none;
+    color: #fff;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content .thanhtoan {
+    margin-top: 15px;
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+.content .thanhtoan * {
+    box-sizing: border-box;
+}
+
+.content .thanhtoan .action1 {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+
+    /* background-color: aqua; */
+}
+
+.content .thanhtoan .action1 span {
+    /* width: 100%; */
+    font-size: 12px;
+    font-weight: 5
+}
+
+.content .thanhtoan .action2 {
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+}
+
+.content .thanhtoan .form_thanhtoan {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.content .thanhtoan .form_thanhtoan .left {
+    width: 100%;
+    /* background-color: brown; */
+    flex: 1;
+
+}
+
+.content .thanhtoan .form_thanhtoan .right {
+    width: 100%;
+    /* background-color: brown; */
+    margin: 0 10px;
+    flex: 1;
+}
+
+.content .thanhtoan .form_thanhtoan label {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content .thanhtoan .form_thanhtoan input {
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #d1d1d1;
+    display: block;
+
+}
+
+.content .thanhtoan .form_thanhtoan input:focus-visible {
+    border: none;
+}
+
+
+.content .thanhtoan .action3 {
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.content .thanhtoan .action3 div {
+    width: inherit;
+}
+
+.content .thanhtoan .action3 span {
+    width: 100%;
+    height: 30px;
+    /* background-color: aqua; */
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content .thanhtoan .action3 textarea {
+    max-width: 98.5%;
+    min-width: 50%;
+    min-height: 50px;
+    max-height: 200px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.content .thanhtoan .action4 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.content .thanhtoan .action4 .tongtien{
+    text-align: right;
+    border: none;
+    color: red;
+}
+.content .thanhtoan .action4 sup{
+    font-size: 12px;
+    font-weight: 500;
+    color: red;
+}
+.content .thanhtoan .action4 .tongtien:focus-visible{
+    outline: none;
+}
+.content .thanhtoan .action4 span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content .thanhtoan .action5 {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.content .thanhtoan .action5 .Btn {
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4a9cf7, #77d2ff, #0043a3, #fceed2, #ffd277, #77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #000000;
+    position: relative;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+}
+
+.content .thanhtoan .action5 .Btn::before {
+    position: absolute;
+    content: "Đặt hàng";
+    color: #5e5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(255, 255, 255, 0.842);
+    background-size: 200%;
+}
+
+.content .thanhtoan .action5 .Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+    color: #0043a3;
+}
+
+.content .thanhtoan .action5 .Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+}
+
+.content .thanhtoan .action5 .Btn:active {
+    transform: scale(0.95);
+}

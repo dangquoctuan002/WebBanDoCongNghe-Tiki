@@ -1,0 +1,622 @@
+
+main {
+    height: auto;
+    margin-top: 10px;
+    /* background-color: rgb(212, 212, 212); */
+}
+
+main .content {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    /* background-color: rgb(255, 255, 255); */
+  
+    /* width: 1280px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua; */
+}
+
+main .content .link-hd{
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: white;
+
+}
+
+main .content .link-hd span{
+    
+    font-size: 11px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .content .link-hd a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    margin: 0 5px;
+}
+
+main .content .product-itemt{
+    width: 100%;
+    height: 420px;
+    padding-top: 10px; 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+main .content .product-list-image {
+    flex: 4;
+    /* background-color: rgb(255, 187, 0); */
+    display: flex;
+    justify-content: center;
+    height: 400px;
+
+}
+.content .product-list-image .list-img{
+    flex: 1;
+    /* background-color: blue; */
+}
+.content .product-list-image .thumnai{
+    flex: 9;
+    background-color: rgb(255, 255, 255);
+}
+.content .product-list-image .thumnai div{
+    width: 100%;
+
+}
+.content .product-list-image .thumnai img{
+    width: 400px;
+    box-sizing: border-box;
+    
+}
+
+main .content .product-detail {
+    flex: 6;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content .product-detail .thongtin{
+    flex: 7;
+    padding: 0 10px;
+}
+.content .product-detail .thongtin > div{
+    margin: 10px 0;
+}
+
+.content .product-detail .thongtin1{
+    width: 100%;
+    height: 25px;
+    background-color: white;
+
+}
+
+.content .product-detail .thongtin1 span{
+    box-sizing: border-box;
+    padding: 3px;
+    font-size: 12px;
+    color: #a1a1a1;
+    border: 1px solid #a1a1a1;
+    border-radius: 12.5px;
+}   
+
+.content .product-detail .thongtin2{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    padding: 5px 0;
+
+}
+
+.content .product-detail .thongtin2 span{
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.content .product-detail .thongtin3{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 0;
+    display: flex;
+    justify-content: left;
+    line-height: 20px;
+    font-size: 13px;
+    color: #919191;
+}
+.content .product-detail .thongtin3  div{
+    margin: 0 10px;
+}
+.content .product-detail .thongtin4{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(226, 245, 255);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13px;
+    color: #3f3f3f;
+    border-radius: 5px;
+}
+.content .product-detail .thongtin4 i{
+   width: 22px;
+   margin: 0 10px;
+   color: rgb(10, 104, 255);
+   font-size: 18px;
+    
+}
+.content .product-detail .thongtin4 span{
+
+}
+
+.content .product-detail .thongtin5{
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(201, 235, 255); */
+    color: #4e4e4e;
+    margin: 10px 0;
+}
+.content .product-detail .thongtin5 span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-right: 5px;
+    color: #000000;
+}
+
+.content .product-detail .thongtin6{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #a3a3a3;
+    border-top: 1px solid #a3a3a3;
+    /* background-color: rgb(201, 235, 255); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #000000;
+}
+.content .product-detail .thongtin6 > .soluong{
+    width: 50%;
+    /* background-color: #0057f8; */
+    display: flex;
+    justify-content: revert;
+    align-items: center;
+}
+.content .product-detail .thongtin6 > .soluong > span{
+    /* flex: 1; */
+    width: 28%;
+    
+    
+}
+.content .product-detail .thongtin6 .soluong div{
+    /* border: 1px solid #cfcfcf; */
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+
+}
+
+.content .product-detail .thongtin6 .soluong span{
+    background-color: white;
+    width: 30%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.content .product-detail .thongtin6 .soluong input{
+    /* border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf; */
+    border: none;
+    cursor: unset;
+    /* width: 20%; */
+    width: 30%;
+    text-align: center;
+}
+.content .product-detail .thongtin6 .soluong input[type=number]::-webkit-inner-spin-button, 
+.content .product-detail .thongtin6 .soluong input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+
+
+
+
+.content .product-detail .thongtin6 .soluong input:focus-visible{
+    outline: none;
+}
+
+.content .product-detail .thongtin6 .soluong button:nth-child(2){
+    border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf;
+    cursor: unset;
+
+}
+
+
+.content .product-detail .thongtin7{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    /* background-color: rgb(201, 235, 255); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+}
+.content .product-detail .thongtin7 button{
+    width: 40%;
+    height: 50px;
+    background-color: rgb(230, 238, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.content .product-detail .thongtin7 button:hover{
+    border: 1px solid #0057f8;
+}
+.content .product-detail .thongtin7 > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .product-detail .thongtin7 img{
+    width: 20px;
+    margin: 0 10px;
+}
+
+.content .product-detail .camket{
+    flex: 3;
+}
+
+.content .product-detail .camket .HDJSKS{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #cbcbcb;
+}
+.content .product-detail .camket h4{
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: #cfcfcf;
+    border-bottom: 1px solid #a3a3a3;
+}
+.content .product-detail .camket span{
+    font-size: 11px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.content .product-detail .camket i{
+    /* width: 14px; */
+    /* margin-right: 5px; */
+    color: rgb(10, 104, 255);
+
+}
+
+
+
+
+main .content .wraper{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: #ffffff; */
+}
+.content .wraper .wp-content{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+
+}
+
+.content .wraper .mota {
+    flex: 5;
+    background-color: #ffffff;
+    height: inherit;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+    
+.content .wraper .mota a{
+    text-decoration: none; 
+    color: rgb(10, 104, 255);
+}
+
+.content .wraper .thongso {
+    flex: 2;
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    overflow: hidden;
+    top: 16px;
+    left: 10px;
+    color: rgb(56, 56, 61);
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 10px;
+
+}
+.content .wraper .thongso table{
+    width: 100%;
+    height: auto;
+ 
+    
+}
+
+.content .wraper .thongso table caption{
+    width: 100%;
+    height: 40px;
+    /* background: #0057f8;  */
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 10px;
+}
+.content .wraper .thongso table th{
+    width: 40%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: 2;
+    
+}
+.content .wraper .thongso table td{
+   
+}
+
+/* 
+.content .wraper .banchaynhat {
+    flex: 1.5;
+    background-color: #ff6905;
+    padding: 5px;
+} */
+
+main .content .phanhoi{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 10px;
+
+}
+
+main .content .sanphamtuongtu{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    /* padding: 10px; */
+}
+
+
+.sanphamtuongtu .ctn-product-selling {
+    width: 100%;
+    /* height: 400px; */
+    border-radius: 15px;
+    /* margin-top: 20px; */
+    box-sizing: border-box;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sanphamtuongtu .ctn-product-selling .products-items {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.sanphamtuongtu .ctn-product-selling h3 {
+    width: 100%;
+    height: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+
+}
+
+
+.sanphamtuongtu .ctn-product-selling .product-item {
+    display: flex;
+    justify-content: center;
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item a {
+    width: calc(100% / 6);
+    margin-top: 10px;
+    height: 300px;
+    border: 1px solid rgb(235, 235, 240);
+    border-radius: 15px;
+    margin: 10px;
+
+    text-decoration: none;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    /* border: 1px solid rgb(235, 235, 240); */
+    border-radius: 8px;
+    display: inline-table;
+    /* 
+    display: flex;
+    position: relative;
+ */
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item a>span {
+    /* display: flex;
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    flex-direction: column; */
+
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-image {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-image>img {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-genuine {
+    width: 100%;
+    height: 20px;
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-genuine img {
+    width: 89px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-name {
+    /* width: 100%; */
+    height: 48px;
+    text-align: left;
+    margin: 5px;
+
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-name h3 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: rgb(39, 39, 42);
+    margin: 0px;
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-rating {
+    width: 100%;
+    height: 20px;
+    text-align: left;
+
+}
+
+
+/* --------------------------- */
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    font-size: 0;
+    margin-left: 10px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating label {
+    font-size: 15px;
+    color: rgba(10, 104, 255, 0.726);
+    margin: 0 2px;
+
+}
+
+.rating label:before {
+    content: "\2605";
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-price {
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: rgb(39, 39, 42);
+    margin: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-button {
+    display: flex;
+    gap: 4px;
+    border-top: 1px solid rgb(235, 235, 240);
+    padding-top: 6px;
+    padding-bottom: 8px;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-button img {
+    width: 32px;
+    height: 16px;
+    max-width: 100%;
+
+}
+
+.sanphamtuongtu .ctn-product-selling .product-item .product-button span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgb(128, 128, 137);
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    white-space: normal;
+}
+
+.ctn-product-selling .product-item .sls-carousel {
+    width: 100%;
+}
+
+.ctn-product-selling .product-item .owl-stage {
+    /* transform: translate3d(0, 0px, 0px) !important; */
+    transition: all 0s ease 0s;
+    width: 2897px;
+}
+
+.ctn-product-selling .product-item .owl-item {}
+
+
